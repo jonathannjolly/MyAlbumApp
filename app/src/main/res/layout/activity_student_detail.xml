@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentDetailActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/img_pic"
+            android:src="@mipmap/hamaad"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:id="@+id/tv_detail_container"
+            android:layout_below="@id/img_pic"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tv_name_label"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:text="Name:"
+                    android:paddingRight="5dp"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_weight="0.7"
+                    tools:text="Bilal Maqsood"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tv_phone_no_label"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:text="Phone No:"
+                    android:paddingRight="5dp"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_phone_no"
+                    android:layout_weight="0.7"
+                    tools:text="+92323 3432789"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_address_label"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:text="Address:"
+                    android:paddingRight="5dp"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    tools:text="lskdj flskdjflsk dflskdjf sldfkjlkfj sdlkfjsdlkf eijsldkjflskdjfoiejflskdjflskejfiojsldkjf"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_social_label"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:text="Social Media:"
+                    android:paddingRight="5dp"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_social"
+                    tools:text="1. WhatsApp:
+2. FaceBook:
+3. Skype:
+4. imo:"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_quote_label"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:text="Best Quote:"
+                    android:paddingRight="5dp"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_quote"
+                    tools:text="sldfkjlkfj sdlkfjsdlkf eijsldkjflskdjfoiejflskdjflskejfiojsldkjf"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+
+
