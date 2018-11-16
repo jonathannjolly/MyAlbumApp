@@ -3,6 +3,7 @@ package com.example.rashidsaleem.albumapp
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v4.widget.DrawerLayout
 import android.util.Log
 import android.view.View
 import android.widget.AdapterView
@@ -12,11 +13,10 @@ import com.example.rashidsaleem.albumapp.model.Student
 import com.example.rashidsaleem.albumapp.util.DummyData
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() , AdapterView.OnItemClickListener {
-
+class MainActivity: AppCompatActivity() , AdapterView.OnItemClickListener {
 
     public final var TAG: String = MainActivity::class.java.simpleName
-//    public final var TAG: String = MainActivity::class.simpleName!!
+//  public final var TAG: String = MainActivity::class.simpleName!!
 
     lateinit var studentArrayList: ArrayList<Student>
     lateinit var listView: ListView
@@ -63,3 +63,4 @@ class MainActivity : AppCompatActivity() , AdapterView.OnItemClickListener {
 
 
 }
+

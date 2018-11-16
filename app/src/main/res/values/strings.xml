@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Album App</string>
+    <string name="app_name">INFO-TECH ATBU 2018</string>
 
-    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_splash">INFO-TECH ATBU 2018</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_login">INFO-TECH ATBU 2018</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
